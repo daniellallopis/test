@@ -1,0 +1,38 @@
+
+
+h1
+{
+      color: #5ab4c8;
+      font-family: 'Bebas Neue';
+
+}
+
+
+
+
+
+/* this is class */
+.container
+{
+    background-color: rgba(#78c5d6, 0.34);
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 5px 10px 10px 10px #5ab4c8;
+    border-radius: 5px;
+}
+
+.article h1 {
+  color: lightpink;
+
+}
+
+.container h1{
+  font-size: 4em;
+}
+
+/* this is an ID */
+#beach {
+  background-color: #adbbb1;
+  width: 400px;
+}
