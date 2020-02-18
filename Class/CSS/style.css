@@ -1,3 +1,4 @@
+body {background-color: rgb(227, 230, 215)}
 
 
 h1
@@ -30,6 +31,48 @@ h1
 .container h1{
   font-size: 4em;
 }
+
+.sidebar {
+  float: left;
+
+  background-color: rgba(#78c5d6, 0.34);
+  width: 10%;
+  margin-left: 60px;
+  padding: 20px;
+  box-shadow: 5px 10px 10px 10px #5ab4c8;
+  border-radius: 5px;
+}
+
+.navigation {
+  display: table;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.horizontaLine {
+  padding-top: 20px;
+}
+
+.horizontaLine li {
+  display: inline;
+  margin: 40px;
+  padding: 20px 60px 20px 60px;
+  background-color: white;
+  width: 10%;
+}
+
+.horizontaLine li a {
+  color: gray;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.horizontaLine li a:hover {
+  color: blue;
+}
+
+
 
 /* this is an ID */
 #beach {

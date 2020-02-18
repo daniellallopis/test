@@ -11,6 +11,8 @@
     <meta name="keywords" content="HTML, JS, CSS, Basic example">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css">
+    <meta name="viewport" content="initial-scale=1">
 
 
 
@@ -19,30 +21,31 @@
   <body>
 <!-- This is my header -->
 <header>
-  <nav>
-    <ul>
-      <li> <a href="https://www.apple.com/">  Apple  </a> </li>
+  <nav class="navigation">
+    <ul class="horizontaLine">
+      <li> <a href="Class6-1/transitions.html">  Class 6.1  </a> </li>
       <li> <a href="https://www.facebook.com/">  Facebook  </a> </li>
       <li> <a href="https://www.theguardian.com/us">  The Guardian  </a> </li>
     </ul>
   </nav>
 </header>
-
+<aside class="sidebar">
+  <h3>Side Bar</h3>
+  <ul>
+    <li>Miami Beach</li>
+    <li>South Beach</li>
+    <li>North Beach</li>
+  </ul>
+  <ol>
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+  </ol>
+</aside>
   <div class="container">
     <section>
+<h4>Ocean</h4>
 
-      <aside>
-        <ul>
-          <li>Miami Beach</li>
-          <li>South Beach</li>
-          <li>North Beach</li>
-        </ul>
-        <ol>
-          <li>item 1</li>
-          <li>item 2</li>
-          <li>item 3</li>
-        </ol>
-      </aside>
 
       <!-- we use article magazines article posts -->
       <article id="beach">
@@ -57,7 +60,7 @@
            Duis aute in iatur.Excepteur sint occaecat cupidatat non proident,
            uis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
          </p>
-            <img src="img/IMG_4644.jpg" alt="ocean" width="350px">
+            <img src="img/IMG_4644.jpg" alt="ocean" width="350">
 
       </article>
 
@@ -68,6 +71,7 @@
 
 
     <section>
+      <h3>Information</h3>
       <address>
         <ul>
           <li>Name: Daniella Llopis</li>
@@ -83,7 +87,7 @@
 
         <th>Best Beach in Miami</th>
       </tr>
-      <!-- table cells -->
+
       <td>South Beach</td>
       <td>Miami Beach</td>
     </table>
